@@ -577,3 +577,164 @@ nav {
     font-weight: 600;
     line-height: 1.375rem;
 }
+
+/* Offer Section */
+
+#offer {
+    display: flex;
+    height: 532px;
+}
+
+.offer-img {
+    width: 50%;
+    height: 100%;
+}
+
+.offer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-content {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 6.313rem 10rem 6.313rem 4.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(255, 171, 0, 0.40) 0%, rgba(255, 171, 0, 0.40) 100%), #FFF;
+}
+
+.offer-content_header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.offer-content_header h3 {
+    color: var(--color-blue);
+    font-family: var(--inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+
+.offer-content_header h4 {
+    color: var(--Black-900, #121212);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.75rem;
+    letter-spacing: -0.4px;
+}
+
+.offer-content_header p {
+    color: var(--Black-900, #121212);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.offer-content_time {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.offer-content_time p {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.offer-content_time-clock {
+    display: flex;
+    gap: 1rem;
+}
+
+.offer-content_time-clock_days, .offer-content_time-clock_hours, .offer-content_time-clock_minutes, .offer-content_time-clock_seconds {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-content_time-clock span {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.375rem;
+    letter-spacing: -0.6px;
+}
+
+.time-days {
+    padding: 0.688rem 0.563rem 0.688rem 0.625rem;
+}
+
+.time-hours {
+    padding: 0.688rem 0.875rem 0.688rem 0.938rem;
+}
+
+.time-minutes {
+    padding: 0.688rem 0.5rem;
+}
+
+.time-seconds {
+    padding: 0.688rem 0.5rem 0.688rem 0.563rem;
+}
+
+.offer-content_time-clock p {
+    color: var(--neutral-07100, #141718);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+
+.offer-content button {
+    padding: 0.375rem 2.5rem;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: -0.4px;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.offer-content button:hover {
+    transform: scale(1.1) ;
+    -webkit-transform: scale(1.1) ;
+    -moz-transform: scale(1.1) ;
+}
