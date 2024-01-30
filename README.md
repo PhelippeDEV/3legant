@@ -9,3 +9,5 @@ Terceiro dia: Criação da seção Shop Collection
 Quarto dia: Criação da seção Best Seller
 
 Quinto dia: Criação da seção Offers
+
+Sexto dia: Criação da seção Benefits, Instagram, Newsletter e Footer 

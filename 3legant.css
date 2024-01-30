@@ -739,3 +739,302 @@ nav {
     -webkit-transform: scale(1.1) ;
     -moz-transform: scale(1.1) ;
 }
+
+/* Benefits Section */
+
+#benefits {
+    padding: 2.5rem 10rem;
+}
+
+.benefits__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+    gap: 2rem;
+}
+
+.benefits__container img {
+    width: 48px;
+    height: 48px;
+}
+
+.benefits-delivery, .benefits-money, .benefits-security, .benefits-support {
+    padding: 3rem 2rem;
+    background-color: rgb(243, 245, 247);
+}
+
+.benefits-title {
+    margin: 1rem 0 0.5rem 0;
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.benefits-subtitle {
+    color: rgb(108, 114, 117);
+    font-family: var(--poopins);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+/* Instagram Section */
+
+#instagram {
+    padding: 2.5rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram__header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.instagram-title {
+    color: rgb(108, 114, 117);
+    text-align: center;
+    font-family: var(--inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+
+.instagram__header h3 {
+    color: var(--color-black900);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.75rem;
+    letter-spacing: -0.4px;
+}
+
+.instagram-subtitle {
+    color: var(--color-black900);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.instagram__header span {
+    color: rgb(108, 114, 117);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.instagram__photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+    gap: 2rem;
+}
+
+.instagram__photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Newsletter Section */
+
+#newsletter {
+    background-color: rgba(226, 228, 227, 1);
+}
+
+.newsletter__container {
+    margin: 0 10rem;
+    background-image: url('./img/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 41vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.newsletter__heading h2 {
+    color: var(--Black-900, #121212);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4px;
+}
+
+.newsletter__heading p {
+    color: var(--Black-900, #121212);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.newsletter__email {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--neutral-0450, rgba(108, 114, 117, 0.50));
+    min-width: 488px;
+    padding: 1rem 0;
+}
+
+.newsletter__email-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter__email input {
+    color: var(--neutral-04100, #6C7275);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    flex: 1;
+}
+
+.newsletter__email button {
+    color: var(--neutral-04100, #6C7275);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    padding: 5rem 10rem 2rem 10rem;
+    background: rgb(20, 23, 24);
+}
+
+.footer__header {
+    display: flex;
+    height: fit-content;
+    margin-bottom: 3.063rem;
+}
+
+.footer__header h1 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--poopins);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    border-right: 1px solid rgb(108, 114, 117);
+    padding-right: 2rem;
+}
+
+.footer__header p {
+    color: var(--neutral-03100, #E8ECEF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    padding-left: 2rem;
+}
+
+.footer__header ul {
+    display: flex;
+    margin-left: auto;
+    gap: 2.5rem;
+}
+
+.footer__header li {
+    color: rgb(254, 254, 254);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--inter);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    cursor: pointer;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(108, 114, 117);
+    padding: 1rem 0;
+}
+
+.footer__bottom-txt {
+    display: flex;
+    gap: 1.75rem;
+    font-family: var(--poopins);
+}
+
+.footer__bottom-txt p {
+    color: rgb(232, 236, 239);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.footer__bottom-txt a {
+    color: rgb(254, 254, 254);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+
+.footer__bottom-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer__bottom-icons img {
+    cursor: pointer;
+}
